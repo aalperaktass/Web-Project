@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Çadır Restaurant | Rezervasyon</title>
+
+    <link rel="stylesheet" href="./project.css">
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">
+            <h1 id="logo">Çadır Restaurant</h1>
+        </a>
+        <nav id="top-navbar">
+            <ul>
+                <li><a href="./index.html">Anasayfa</a></li>
+                <li><a href="./hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="./galeri.html">Galeri</a></li>
+                <li><a href="./menu.html">Menü</a></li>
+                <li><a href="./iletisim.html">İletişim</a></li>
+                <li class="active"><a href="./rezervasyon.html">Rezervasyon</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+		<h2>Son zamanlarda yaşadığımız yoğun talep sebebi ile rezervasyonlarınızı <u>en az 1 gün</u> öncesinden yaptırmanızı öneririz.</h2>
+        <ul>
+			<li><strong>Tel: </strong> +90 (535) 776 97 93</li>
+			<li><strong>Adres: </strong> Arsuz Karaağaç Mah. Uğur Mumcu Cad. Hatay / Arsuz</li>
+		</ul>
+
+		<div class="box">
+			<h3>Aşağıdaki formdan rezervasyon talebinde bulunabilirsiniz.</h3>
+			<form>
+				<label for="isim">İsim, Soyisim: </label>
+				<input type="text" placeholder="İsim, Soyisim" id="isim" />
+				<label for="telefon">Telefon: </label>
+				<input type="text" placeholder="Telefon" id="telefon" />
+				<label for="eposta">E-Posta: </label>
+				<input type="email" placeholder="E-Posta Adresi" id="eposta" />
+				<label for="kisisayisi">Kişi Sayısı: </label>
+				<input type="number" placeholder="Kişi Sayısı" min="1" max="100" id="kisisayisi" />
+				<label for="yertercihi">Yer Tercihiniz: </label>
+				<select id="yertercihi">
+					<option value="1">Sahne Yakını</option>
+					<option value="2">Cam Kenarı</option>
+					<option value="3">Balkon</option>
+					<option value="4">Bahçe</option>
+					<option value="5">Botanik Bahçe</option>
+				</select>
+				<label for="tarih">Tarih: </label>
+				<input type="text" placeholder="GG/AA/YYYY" id="tarih" />
+				<label for="saat">Saat: </label>
+				<input type="text" placeholder="SS:DD" id="saat" />
+				<button class="submit">Gönder</button>
+			</form>
+		</div>
+		
+
+    </main>
+    <footer>
+        <div class="footer-info">Çadır Restaurant © 2020 - Tüm Hakları Saklıdır.</div>
+        <div class="footer-info"><strong>Tel: </strong> +90 (535) 776 97 93</div>
+		<div class="footer-info"><strong>Adres: </strong> Arsuz Karaağaç Mah. Uğur Mumcu Cad. Hatay / Arsuz</div>
+		<div class="footer-info"><strong><a href="https://www.facebook.com/Çat-Fasıl-Çadır-Restaurant-126520504197958/">Facebook</a></strong> | <strong><a href="https://www.instagram.com/cadirrestaurantt">Instagram</a></strong></div>
+    </footer>
+</body>
+
+</html>
